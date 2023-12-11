@@ -14,4 +14,4 @@ Image2Icon is a tool developed using WPF that allows users to convert images of 
 
 ## License
 
-This project is licensed under the Eclipse Public License - see the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
