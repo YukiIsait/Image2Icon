@@ -1,20 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-	<PropertyGroup>
-		<OutputType>WinExe</OutputType>
-		<TargetFramework>net472</TargetFramework>
-		<LangVersion>10</LangVersion>
-		<Nullable>enable</Nullable>
-		<UseWPF>true</UseWPF>
-		<AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
-		<ApplicationIcon>Icon.ico</ApplicationIcon>
-		<ApplicationManifest>Manifest.xml</ApplicationManifest>
-		<PlatformTarget>AnyCPU</PlatformTarget>
-	</PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
-		<PackageReference Include="Magick.NET-Q16-HDRI-AnyCPU" Version="13.5.0" />
-	</ItemGroup>
-
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net472</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
+        <ApplicationIcon>Icon.ico</ApplicationIcon>
+        <ApplicationManifest>Manifest.xml</ApplicationManifest>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+        <PackageReference Include="Magick.NET-Q16-HDRI-AnyCPU" Version="13.5.0" />
+    </ItemGroup>
 </Project>
