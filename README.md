@@ -12,7 +12,7 @@ Image2Icon is a tool developed using WPF that allows users to convert images of 
 - Windows operating system
 - .NET Framework 4.7.2 or higher
 
-## Preview
+## Previews
 
 ![Preview1](Previews/Preview1.jpg)
 
