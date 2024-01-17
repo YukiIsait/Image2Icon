@@ -1,9 +1,9 @@
-﻿<Window x:Class="Image2Icon.MainWindow"
+﻿<Window x:Class="Image2Icon.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Image2Icon"
+        xmlns:vm="clr-namespace:Image2Icon.ViewModels"
         mc:Ignorable="d"
         FontSize="15"
         Height="360" Width="550"
@@ -12,7 +12,7 @@
         WindowStartupLocation="CenterScreen"
         Title="Image2Icon">
     <Window.DataContext>
-        <local:MainWindowViewModel />
+        <vm:MainWindowViewModel />
     </Window.DataContext>
     <Grid Margin="10">
         <Grid.ColumnDefinitions>

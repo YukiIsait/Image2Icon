@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Image2Icon.Models;
+using Image2Icon.Utils;
 
 using Microsoft.Win32;
 
@@ -7,7 +9,7 @@ using System;
 using System.IO;
 using System.Windows;
 
-namespace Image2Icon;
+namespace Image2Icon.ViewModels;
 
 public partial class MainWindowViewModel: ObservableObject {
 

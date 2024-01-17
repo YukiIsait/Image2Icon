@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Image2Icon;
+namespace Image2Icon.Utils;
 
 public static class ImageConversionUtil {
 
