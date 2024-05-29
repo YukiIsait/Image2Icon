@@ -13,8 +13,8 @@
         WindowStartupLocation="CenterScreen"
         Title="Image2Icon"
         AllowDrop="True"
-        DragEnter="WindowDragEnter"
-        Drop="WindowDrop">
+        PreviewDragOver="WindowDragOver"
+        PreviewDrop="WindowDrop">
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />

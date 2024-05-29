@@ -10,12 +10,13 @@ public partial class MainWindow: Window {
         DataContext = new MainWindowViewModel();
     }
 
-    private void WindowDragEnter(object sender, DragEventArgs e) {
+    private void WindowDragOver(object sender, DragEventArgs e) {
         if (e.Data.GetDataPresent(DataFormats.FileDrop)) {
             e.Effects = DragDropEffects.Link;
         } else {
             e.Effects = DragDropEffects.None;
         }
+        e.Handled = true;
     }
 
     private void WindowDrop(object sender, DragEventArgs e) {
