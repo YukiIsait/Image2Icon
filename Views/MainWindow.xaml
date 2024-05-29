@@ -5,15 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="clr-namespace:Image2Icon.ViewModels"
         mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance vm:MainWindowViewModel}"
         FontSize="15"
         Height="360" Width="550"
         ResizeMode="NoResize"
         SnapsToDevicePixels="True"
         WindowStartupLocation="CenterScreen"
-        Title="Image2Icon">
-    <Window.DataContext>
-        <vm:MainWindowViewModel />
-    </Window.DataContext>
+        Title="Image2Icon"
+        AllowDrop="True"
+        DragEnter="WindowDragEnter"
+        Drop="WindowDrop">
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
