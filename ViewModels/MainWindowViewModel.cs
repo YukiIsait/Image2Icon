@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+
 using Image2Icon.Models;
 using Image2Icon.Utils;
 
@@ -34,6 +35,10 @@ public partial class MainWindowViewModel: ObservableObject {
         OpenFileDialog openFileDialog = new() {
             Filter = "Image files (*.png;*.jpeg;*.jpg)|*.png;*.jpeg;*.jpg|All files (*.*)|*.*"
         };
+        if (File.Exists(ImagePath)) {
+            openFileDialog.InitialDirectory = Path.GetDirectoryName(ImagePath);
+            openFileDialog.FileName = ImagePath;
+        }
         if (openFileDialog.ShowDialog() != true) {
             return;
         }
@@ -48,6 +53,7 @@ public partial class MainWindowViewModel: ObservableObject {
         }
         SaveFileDialog saveFileDialog = new() {
             Filter = "Icon files (*.ico)|*.ico|All files (*.*)|*.*",
+            InitialDirectory = Path.GetDirectoryName(ImagePath),
             FileName = Path.GetFileNameWithoutExtension(ImagePath)
         };
         if (saveFileDialog.ShowDialog() != true) {
