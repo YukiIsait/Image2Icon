@@ -14,7 +14,7 @@ Image2Icon is a tool developed using WPF that allows users to convert images of 
 
 ## Previews
 
-![Preview1](Previews/Preview1.jpg)
+![Preview1](Previews/Preview1.png)
 
 ## License
 
