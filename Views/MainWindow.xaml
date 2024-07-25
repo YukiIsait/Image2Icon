@@ -52,17 +52,15 @@
             <Image Source="{Binding ImagePath, TargetNullValue={x:Null}}" />
         </Border>
         <StackPanel Grid.Row="1" Grid.Column="1" Margin="0,0,5,0">
-            <CheckBox VerticalContentAlignment="Center" Content="768x768" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size768}" />
-            <CheckBox VerticalContentAlignment="Center" Content="512x512" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size512}" />
             <CheckBox VerticalContentAlignment="Center" Content="256x256" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size256}" />
             <CheckBox VerticalContentAlignment="Center" Content="128x128" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size128}" />
             <CheckBox VerticalContentAlignment="Center" Content="96x96" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size96}" />
             <CheckBox VerticalContentAlignment="Center" Content="80x80" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size80}" />
             <CheckBox VerticalContentAlignment="Center" Content="72x72" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size72}" />
-            <CheckBox VerticalContentAlignment="Center" Content="64x64" IsChecked="{Binding IconSizes.Size64}" />
+            <CheckBox VerticalContentAlignment="Center" Content="64x64" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size64}" />
+            <CheckBox VerticalContentAlignment="Center" Content="60x60" IsChecked="{Binding IconSizes.Size60}" />
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="2">
-            <CheckBox VerticalContentAlignment="Center" Content="60x60" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size60}" />
             <CheckBox VerticalContentAlignment="Center" Content="48x48" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size48}" />
             <CheckBox VerticalContentAlignment="Center" Content="40x40" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size40}" />
             <CheckBox VerticalContentAlignment="Center" Content="32x32" Margin="0,0,0,5" IsChecked="{Binding IconSizes.Size32}" />

@@ -9,38 +9,6 @@ public class IconSizeModel : ObservableObject
 
     public IReadOnlyCollection<int> Sizes => sizes;
 
-    public bool Size768
-    {
-        get => sizes.Contains(768);
-        set => SetProperty(sizes.Contains(768), value, newValue =>
-        {
-            if (newValue)
-            {
-                sizes.Add(768);
-            }
-            else
-            {
-                sizes.Remove(768);
-            }
-        });
-    }
-
-    public bool Size512
-    {
-        get => sizes.Contains(512);
-        set => SetProperty(sizes.Contains(512), value, newValue =>
-        {
-            if (newValue)
-            {
-                sizes.Add(512);
-            }
-            else
-            {
-                sizes.Remove(512);
-            }
-        });
-    }
-
     public bool Size256
     {
         get => sizes.Contains(256);
