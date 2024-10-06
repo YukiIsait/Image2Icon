@@ -2,7 +2,7 @@
 
 🌍 **[English](README.md) | [简体中文](README-CN.md)**
 
-Image2Icon 是一个用于将多种图像格式转换为包含多种尺寸图像的 Windows 图标 (.ico) 的小巧工具，基于 WPF 开发。
+一款用于将多种图像格式转换为包含多种尺寸图像的 Windows 图标 (.ico) 的小巧工具，基于 WPF 开发。
 
 ## 软件特性
 
