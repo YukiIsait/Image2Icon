@@ -5,6 +5,7 @@
         <LangVersion>10</LangVersion>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
         <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
         <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
         <ApplicationManifest>Resources\Manifest.xml</ApplicationManifest>
@@ -14,7 +15,7 @@
       <DebugType>none</DebugType>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
-        <PackageReference Include="Magick.NET-Q16-HDRI-AnyCPU" Version="13.10.0" />
+        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+        <PackageReference Include="Magick.NET-Q16-HDRI-AnyCPU" Version="14.4.0" />
     </ItemGroup>
 </Project>
