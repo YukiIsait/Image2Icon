@@ -2,7 +2,7 @@
 
 🌍 **[简体中文](README-CN.md) | [English](README.md)**
 
-Image2Icon is a tool developed using WPF that allows users to convert images of various formats into Windows Icon (.ico) files containing multiple sizes of images.
+A tool developed using WPF that allows users to convert images of various formats into Windows Icon (.ico) files containing multiple sizes of images.
 
 ## Features
 
@@ -17,6 +17,10 @@ Image2Icon is a tool developed using WPF that allows users to convert images of 
 ## Previews
 
 ![Preview1](Previews/Preview1.png)
+
+## Release Note
+
+The main archive only contains the native library for the x64 architecture, if you need to run it on x86 or Arm64 architectures, please download the corresponding native library and place it in the program directory.
 
 ## License
 
