@@ -5,9 +5,9 @@ namespace Image2Icon.Models;
 
 public class IconSizeModel : ObservableObject
 {
-    private readonly HashSet<int> sizes = new();
+    private readonly HashSet<uint> sizes = new();
 
-    public IReadOnlyCollection<int> Sizes => sizes;
+    public IReadOnlyCollection<uint> Sizes => sizes;
 
     public bool Size256
     {
